@@ -42,7 +42,7 @@ var server = http.createServer(function(req,res){
             from: 'j',
             to: 'n',
             subject: 'Automated mail from Node.js',
-            text: 'Ashaaanaeee......ksheenam mariyoooo!!!!!!!!!!!'
+            text: 'heloo'
           };
           
           transporter.sendMail(mailOptions, function(error, info){
